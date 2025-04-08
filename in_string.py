@@ -3,17 +3,11 @@ def check_vowels():
     nombre = input()
     nombre = nombre.lower()  # Para asegurar que detecta vocales sin importar mayúsculas/minúsculas
 
-    vocala = "a" in nombre
-    vocale = "e" in nombre
-    vocali = "i" in nombre
-    vocalo = "o" in nombre
-    vocalu = "u" in nombre
-
-    print(f"Contiene a: {vocala}")
-    print(f"Contiene e: {vocale}")
-    print(f"Contiene i: {vocali}")
-    print(f"Contiene o: {vocalo}")
-    print(f"Contiene u: {vocalu}")
+    print(f"Contiene a: {"a" in nombre}")
+    print(f"Contiene e: {"e" in nombre}")
+    print(f"Contiene i: {"i" in nombre}")
+    print(f"Contiene o: {"o" in nombre}")
+    print(f"Contiene u: {"u" in nombre}")
 
 # Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
+# `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py
